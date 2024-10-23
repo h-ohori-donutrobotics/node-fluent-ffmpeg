@@ -28,9 +28,6 @@
     "async": "^0.2.9",
     "which": "^1.1.1"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "main": "index",
   "scripts": {
     "test": "NODE_ENV=test nyc mocha --require should --reporter spec",
